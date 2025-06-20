@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FireBase</string>
+
+    <string name="email">Correo Electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Login</string>
+    <string name="registro">Registrarse</string>
+    <string name="close_sesion">Cerrar Sesion</string>
+    <string name="provider">Provedor</string>
+    <string name="logout">Cerrar Sesion</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "972234114635",
+    "firebase_url": "https://fir-tutorial-efbb5.firebaseio.com",
+    "project_id": "fir-tutorial-efbb5",
+    "storage_bucket": "fir-tutorial-efbb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972234114635:android:fb12f12448cafef002afce",
+        "android_client_info": {
+          "package_name": "com.albrecht3.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972234114635-skir2vc653ogbafti84fkuc4u546s7mq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.albrecht3.firebase",
+            "certificate_hash": "5bebc43d9e47eab454d06a5b19c088b7a0b12595"
+          }
+        },
+        {
+          "client_id": "972234114635-eb49acpoa2loqf8t3eusgjqi71ipgcjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDsX8wrzTyL7LYYuB0TeuSfsezePYJMdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972234114635-eb49acpoa2loqf8t3eusgjqi71ipgcjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

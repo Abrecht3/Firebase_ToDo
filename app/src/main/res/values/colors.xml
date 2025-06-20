@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="google_Ecosystem_blue">#4285F4</color>
+    <color name="google_Ecosystem_blue_dark">#2C384A</color>
+    <color name="firebase_amarillo">#FFC400</color>
+    <color name="firebase_naranja">#FF9100</color>
+    <color name="firebase_red">#DD2C00</color>
+
+    <color name="gray_10">#1F1F1F</color>
+    <color name="gray_50">#757575</color>
+    <color name="gray_95">#F2F2F2</color>
+    <color name="gris_firebase">#ECEFF1</color>
+
+</resources>
