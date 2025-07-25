@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.credentials.provider.CreateEntry
 import com.albrecht3.firebase.databinding.ActivityAuthBinding
+import com.albrecht3.firebase.todoapp.TODOActivity
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.auth.FirebaseAuth
 
@@ -23,10 +24,6 @@ class AuthActivity : AppCompatActivity() {
         val view = binding.root
         enableEdgeToEdge()
         setContentView(view)
-
-        binding.apply {
-
-        }
 
         //Analytics Event
         val analytics = FirebaseAnalytics.getInstance(this)
@@ -46,7 +43,8 @@ class AuthActivity : AppCompatActivity() {
                     FirebaseAuth.getInstance()
                         .createUserWithEmailAndPassword(email.text.toString(),password.text.toString()).addOnCompleteListener {
                             if (it.isSuccessful){
-                                showHome(it.result?.user?.email ?:"", ProviderType.BASIC)
+                                //showHome(it.result?.user?.email ?:"", ProviderType.BASIC)
+                                showTODO()
                             }else{
                                 showAlert()
                             }
@@ -58,7 +56,8 @@ class AuthActivity : AppCompatActivity() {
                     FirebaseAuth.getInstance()
                         .signInWithEmailAndPassword(email.text.toString(),password.text.toString()).addOnCompleteListener {
                             if (it.isSuccessful){
-                                showHome(it.result?.user?.email ?:"", ProviderType.BASIC)
+                                //showHome(it.result?.user?.email ?:"", ProviderType.BASIC)
+                                showTODO()
                             }else{
                                 showAlert()
                             }
@@ -68,13 +67,18 @@ class AuthActivity : AppCompatActivity() {
         }
     }
 
-    private fun showHome(email: String, provider: ProviderType) {
+    private fun showTODO(){
+        val todoIntent: Intent= Intent(this, TODOActivity::class.java)
+        startActivity(todoIntent)
+    }
+
+    /*private fun showHome(email: String, provider: ProviderType) {
         val homeIntent: Intent = Intent(this, HomeActivity::class.java).apply {
             putExtra("email",email)
             putExtra("provider", provider.name)
         }
         startActivity(homeIntent)
-     }
+     }*/
 
     private fun showAlert() {
         val builder = AlertDialog.Builder(this)

@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">FireBase</string>
 
+    <!--Menu Strings-->
     <string name="email">Correo Electronico</string>
     <string name="password">Contraseña</string>
     <string name="login">Login</string>
@@ -8,4 +9,15 @@
     <string name="close_sesion">Cerrar Sesion</string>
     <string name="provider">Provedor</string>
     <string name="logout">Cerrar Sesion</string>
+
+<!--To-Do Strings-->
+    <string name="todo_app">TODO App</string>
+    <string name="todo_title">Bienvenido</string>
+    <string name="todo_categories">Categorias:</string>
+    <string name="tasks">Tareas:</string>
+    <string name="text_task_dialog">Agrega una tarea</string>
+    <string name="business">Negocios</string>
+    <string name="personal">Personal</string>
+    <string name="others">Otros</string>
+    <string name="add_task">Crear Tarea</string>
 </resources>

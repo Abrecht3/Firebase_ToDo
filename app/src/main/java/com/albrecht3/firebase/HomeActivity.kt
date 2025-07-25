@@ -1,13 +1,10 @@
 package com.albrecht3.firebase
 
-import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.albrecht3.firebase.databinding.ActivityAuthBinding
 import com.albrecht3.firebase.databinding.ActivityHomeBinding
 import com.google.firebase.auth.FirebaseAuth
 

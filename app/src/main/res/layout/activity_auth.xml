@@ -5,7 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/google_Ecosystem_blue"
     tools:context=".AuthActivity">
 
     <ImageView
@@ -38,6 +37,8 @@
             android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:paddingStart="@dimen/_8dp"
+            android:textColor="@color/gray_10"
+            android:textColorHint="@color/gray_50"
             android:textSize="24sp" />
 
         <EditText
@@ -49,8 +50,10 @@
             android:gravity="fill_vertical"
             android:hint="@string/password"
             android:inputType="textPassword"
-            android:textSize="24sp"
-            android:paddingStart="8dp"/>
+            android:paddingStart="8dp"
+            android:textColor="@color/gray_10"
+            android:textColorHint="@color/gray_50"
+            android:textSize="24sp" />
     </LinearLayout>
 
     <LinearLayout
